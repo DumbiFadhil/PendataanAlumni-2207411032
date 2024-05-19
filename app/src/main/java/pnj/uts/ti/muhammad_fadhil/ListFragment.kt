@@ -363,7 +363,7 @@ class ListFragment : Fragment() {
             val desc = desc[position]
             val imageId = imageId[position]
 
-            val i = Intent(requireActivity(), DetailBerita::class.java)
+            val i = Intent(requireActivity(), BeritaDetail::class.java)
             i.putExtra("title", title)
             i.putExtra("desc", desc)
             i.putExtra("imageId", imageId)

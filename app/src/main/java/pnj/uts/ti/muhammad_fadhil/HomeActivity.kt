@@ -54,14 +54,14 @@ class HomeActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.menu_add_data -> {
                 // Handle Add Data option
-//                val intent = Intent(this, TambahData::class.java)
-//                startActivity(intent)
+                val intent = Intent(this, NewData::class.java)
+                startActivity(intent)
                 true
             }
             R.id.menu_alumni_data -> {
                 // Handle Alumni Data option
-//                val intent = Intent(this, DataAlumni::class.java)
-//                startActivity(intent)
+                val intent = Intent(this, AlumniListActivity::class.java)
+                startActivity(intent)
                 true
             }
             R.id.menu_logout -> {

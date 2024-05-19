@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
                 editor.putString("Nim", "2207411032")
                 editor.putString("Nama", "Muhammad Fadhil Dumbi")
                 editor.putString("Kelas", "TI 4B")
+                editor.putString("Password", password)
                 editor.apply()
 
                 showToast("Login Successful")
